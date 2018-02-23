@@ -1,0 +1,410 @@
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+    0% { -o-transform: rotate(0deg); }
+    100% { -o-transform: rotate(359deg); }
+}
+
+@-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}
+@-webkit-keyframes fadeInUp{
+	0% { opacity:0; -webkit-transform:translateY(20px);}
+	100% { opacity:1; -webkit-transform:translateY(0);}
+}
+@-moz-keyframes fadeInUp{
+	0% { opacity:0; -moz-transform:translateY(20px);}
+	100% { opacity:1; -moz-transform:translateY(0);}
+}
+@-o-keyframes fadeInUp{
+	0% { opacity:0; -o-transform:translateY(20px);}
+	100% { opacity:1; -o-transform:translateY(0);}
+}
+@keyframes fadeInUp{
+	0% { opacity:0; transform:translateY(20px);}
+	100% { opacity:1; transform:translateY(0);}
+}
+
+.updated,
+.error,
+#setting-error-tgmpa {
+	display: block !important;
+	max-width: calc(100% - 250px);
+}
+
+#wpbody-content .rehub-wrap .wpsm-upgrade-notices {
+  display: block !important;
+}
+
+.rehub-wrap .rehub-logo {
+	background: #fff url(../images/logo.png) no-repeat center;
+	border: none;
+	padding-top: 80px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 600;
+	margin: 5px 0 0;
+	display: inline-block;
+	width: 144px;
+	text-rendering: optimizeLegibility;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.rehub-version {
+	margin-top: 30px;
+	display: block;
+	padding: 10px 0;
+	background: #4C4C4C;
+	color: #fff;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.about-wrap .about-text {
+	margin-bottom: 55px;
+}
+.rehub-registration-steps h4 {
+	font-weight: 400;
+}
+.rehub-thanks{
+	float: left;
+	width: 100%;
+}
+.rehub-thanks p {
+	padding: 20px 0;
+}
+.rehub-important-notice {
+	padding: 20px 30px;
+	background: #fff;
+	margin: 0px 0px 30px;
+	padding-top: 5px;
+}
+.registration-form-container {
+	float: left;
+	width: 95%;
+	margin-bottom: 0;
+}
+.rehub-large-button.rehub-register {
+	float: left;
+	margin-right: 10px;
+}
+.rehub-loader > i.loader-icon {
+	display: inline-block !important;
+	font-size: 32px;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	-webkit-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+span.rehub-loader {
+	display: none;
+}
+.rehub-important-notice .about-description {
+	font-size: 17px;
+}
+.registration-form-container .dashicons {
+	display: block;
+	float: left;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 42px;
+	text-align: left;
+}
+
+.registration-form-container .about-description {
+	margin-bottom: 20px;
+}
+
+.wrap.about-wrap.rehub-wrap .nav-tab-wrapper {
+	margin-bottom: 30px;
+}
+.rehub-important-notice p.notice-description {
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+.rehub-large-button {
+	padding: 15px 20px !important;
+	height: 40px !important;
+	line-height: 7px !important;
+}
+
+.rehub-wrap.about-wrap .feature-section .col {
+	margin-top: 0;
+}
+
+.rehub-registration-steps .feature-section {
+	border-bottom: none;
+}
+
+.rehub-registration-steps .feature-section div {
+	margin-bottom: 15px;
+}
+.rehub-registration-steps .four-col > div {
+	float: left;
+	margin-right: 5%;
+	width: 21.25%;
+}
+.rehub-demo-themes .feature-section.theme-browser.rendered {
+	overflow: visible;
+	display: block;
+	width: 100%;
+	float: left;
+}
+.rehub-registration-steps h4 > span {
+	margin-right: 10px;
+}
+
+.theme-browser .theme .theme-screenshot img {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+.theme-browser .theme .theme-screenshot:after {
+	padding-top: 75%;
+}
+
+.rehub-install-plugins .theme-name {
+	line-height: 1.3em;
+}
+
+.rehub-install-plugins .theme-screenshot,
+.rehub-install-plugins .theme-name,
+.rehub-install-plugins .theme-update,
+.rehub-install-plugins .plugin-info {
+	cursor: auto;
+}
+
+.rehub-install-plugins .plugin-info {
+position: absolute;
+    top: 77%;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    height: 40px;
+}
+.rehub-install-plugins .plugin-info span {
+    font-style: italic;
+    color: #7D7D7D;
+}
+
+.plugin-required {
+	background: rgba(213,78,33,.95);
+	text-transform: uppercase;
+	color: #fff;
+	padding: 5px;
+	position: absolute; top: 85px;
+}
+
+.rehub-install-plugins .theme-screenshot img {
+	opacity: 1 !important;
+	cursor: auto;
+}
+
+.rehub-install-plugins .theme-browser .theme .theme-actions, .rehub-demo-themes .theme-browser .theme .theme-actions {
+	opacity: 1; bottom: 0; top: auto; transform: translateY(0);
+    -webkit-transform: translateY(0); border-left: none; margin: 0;
+}
+
+.theme-browser .theme .theme-actions, .theme-browser .theme.active .theme-actions
+
+.rehub-system-status table {
+	margin-bottom: 20px;
+}
+
+.rehub-system-status mark.error {
+	color: #a00;
+	background: 0;
+}
+
+.rehub-system-status mark.yes {
+	color: #7ad03a;
+	background: 0;
+}
+
+.rehub-system-status table tr:nth-child(2n) td, .rehub-system-status table tr:nth-child(2n) th {
+	background: #fcfcfc;
+}
+
+.rehub-system-status table td:first-child {
+	width: 33%;
+}
+
+.rehub-system-status table td.help {
+	width: 1em;
+}
+
+.rehub-system-status table th {
+	font-weight: 700;
+	padding: 9px;
+}
+
+
+.rehub-importer-issue, .rehub-importer-current-value, .rehub-importer-recommended-value, .rehub-importer-fix {
+	width: 25%;
+	display: inline-block;
+}
+
+@media only screen and (min-width: 2000px) {
+	#wpwrap .rehub-demo-themes .theme {
+		width: 31%;
+		margin: 0 3% 3% 0;
+	}
+	#wpwrap .rehub-demo-themes .theme:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	#wpwrap .theme-browser .theme:nth-child(4n),
+	#wpwrap .theme-browser .theme:nth-child(5n) {
+		margin-right: 3%;
+	}
+
+  #wpwrap .theme-browser .theme:nth-child(12n) {
+      margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px){
+	.updated,
+	.error,
+	#setting-error-tgmpa {
+		max-width: none;
+	}
+
+	.rehub-wrap .rehub-logo {
+		display: block;
+		position:relative;
+		margin:0 auto 50px auto;
+	}
+	.about-wrap h2 .nav-tab {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.about-wrap h2.nav-tab-wrapper {
+		padding: 0;
+		width: 100%;
+	}
+	.rehub-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.rehub-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 1120px) {
+	.theme-browser .theme:nth-child(odd) {
+		margin-right: 5% !important;
+	}
+
+	.theme-browser .theme {
+		width: 47.5% !important;
+		margin-right: auto !important;
+	}
+}
+@media screen and (max-width: 620px){
+	.theme-browser .theme {
+		width: 100% !important;
+		margin-right: 0;
+	}
+	.rehub-demo-themes .theme:hover .theme-actions {
+		display: block !important;
+		opacity: 1 !important;
+	}
+	.rehub-demo-themes .theme:hover .screenshot-hover {
+		display: none !important;
+	}
+}
+
+
+/* RTL */
+.rtl .rehub-wrap h1 {
+	font-weight: normal;
+}
+
+.rtl .rehub-logo {
+	left: 0;
+	right: auto;
+}
+.rtl .rehub-registration-steps .four-col > div {
+	float: right;
+	margin-left: 5%;
+	margin-right: 0;
+}
+.rtl .rehub-registration-steps .four-col > .last-feature {
+	margin-left: 0;
+}
+.rtl .rehub-registration-steps h4 > span {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.rtl .rehub-demo-themes .theme {
+	width: 31%;
+	margin: 0 0 3% 3%;
+}
+
+.rtl .rehub-demo-themes .theme:nth-child(3n) {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media only screen and (max-width: 1120px) {
+	.rtl .theme-browser .theme:nth-child(odd) {
+		margin-left: 5% !important;
+		margin-right: 0 !important;
+	}
+
+	.rtl .theme-browser .theme {
+		width: 47.5% !important;
+		margin-left: auto !important;
+	}
+}
+@media screen and (max-width: 620px){
+	.rtl .theme-browser .theme {
+		width: 100% !important;
+		margin-left: 0;
+	}
+}
+.about-description.cegg-discount {
+    padding: 10px; border: 1px dashed #ddd;background: #EFFDFB;
+}
+.spoil-re .re-show-hide{ text-decoration: underline; cursor: pointer;}
+.spoil-re .open-re-onclk{ display: none;}

@@ -1,0 +1,32 @@
+#mainbox{font-size:12px; font-family:Arial, Helvetica, sans-serif; line-height:120%; width: 100%;  overflow: auto;background-color:#fff; }
+#mainbox ul, #mainbox ol, #mainbox li{list-style:none; padding:0; margin:0}
+#mainbox h3{margin:0; padding:0; margin-bottom:10px; font-size:20px; font-weight:normal; color:#3492C9}
+.clear{clear:both}
+#mainbox ul.form_table.head li{padding:0; border:none; margin-bottom:20px;}
+#mainbox ul.form_table span{float:right; width:380px}
+#wpsm-generator-settings .button-primary{color:#fff !important; font-weight:bold}
+#wpsm-generator-settings p{ padding:10px 0; border-bottom:1px dashed #eee; margin:2px 0;}
+#wpsm-generator-settings .checks, #wpsm-generator-settings .half_left .checks{width: auto;}
+#wpsm-generator-settings{padding:20px; border: 1px dashed #dddddd;}
+.inner-wpsm-shortcode{padding: 10px 20px}
+.wpsm-generator-select-color {position: relative;}
+.wpsm-generator-select-color-wheel {
+	position: absolute;
+	left: 0;
+	top: 23px;
+	display: none;
+	background: #fff;
+	border: 1px solid #aaa;
+	z-index: 9999;
+	box-shadow: 0 2px 5px #ccc;
+	-moz-box-shadow: 0 2px 5px #ccc;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+}
+#wpsm-generator-settings label {float:left; width:150px; padding-top:4px;}
+#wpsm-generator-settings input, #wpsm-generator-settings textarea, #wpsm-generator-settings select{width:340px;}
+#wpsm-generator-settings .half_left{width:50%; float:left; box-sizing:border-box;}
+#wpsm-generator-settings .half_left label{width:150px;}
+#wpsm-generator-settings .half_left input, #wpsm-generator-settings .half_left textarea, #wpsm-generator-settings .half_left select{width:85px}
+#wpsm-generator-settings small{ padding-left: 150px; display: block;}
+#wpsm-generator-settings .second_half{ padding-left: 10px}
+.shortcode_titles{background-color: #ddd}

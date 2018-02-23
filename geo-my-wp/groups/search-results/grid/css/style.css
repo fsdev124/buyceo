@@ -1,0 +1,58 @@
+/* GMW FL default search results stylesheet */
+
+.gmw-gl-radius-wrapper {	
+	padding: 2px 5px;
+	background: #f9f9f9;
+	border: 1px solid #ddd;
+	font-size: 11px;
+	text-align: center;
+	display: inline-block;
+	margin:5px;
+}
+							
+.gmw-gl-per-page-dropdown {
+	margin:0px 0 0px 5px;
+	float: right;
+	font-size: 12px;
+	border:1px solid #ccc;
+	color:#444;
+}
+
+.gmw-gl-member-count {
+	display: inline;
+}
+
+/* pagination */
+
+.gmw-gl-default-results-wrapper ul.gmw-pagination {
+	float: right;
+	text-align: center;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+
+.gmw-gl-default-results-wrapper ul.gmw-pagination li  {
+	text-align:center;
+	display: inline-block;
+	margin:0 0 0 2px;
+}
+
+.gmw-gl-default-results-wrapper ul.gmw-pagination li a, 
+.gmw-gl-default-results-wrapper ul.gmw-pagination li span {
+	padding: 4px 10px;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #fff;
+	border:1px solid #d7d7d7;
+	display: inline-block;
+	color:#1B5A64;
+	line-height: 20px;
+}
+
+.gmw-gl-default-results-wrapper ul.gmw-pagination li a:hover, 
+.gmw-gl-default-results-wrapper	 ul.gmw-pagination li span {
+	background-color: #f7f7f7;
+	border:1px solid #ddd;
+	color: #000;
+}

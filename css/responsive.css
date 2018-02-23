@@ -1,0 +1,225 @@
+@media screen and (max-width: 1279px) and (min-width: 1141px){
+nav.top_menu > ul > li > a { padding-left: 12px; padding-right: 12px}
+}
+@media screen and (max-width: 1140px) {
+}
+@media screen and (max-width: 1140px) and (min-width: 1024px){
+.main_slider .flex-overlay h2{ font-size: 36px; line-height: 34px}
+.block_with_coupon .offer_title{ font: 15px/16px Arial}
+.offer_grid .offer_thumb{ height: 130px}
+.offer_grid .offer_thumb img, .offer_grid figure img{max-height: 130px}
+nav.top_menu > ul > li > a { font-size: 14px; padding-left: 8px; padding-right: 8px   }
+nav.top_menu > ul > li{border: none;}
+}
+
+/****************************************************************************
+Common for under (1280)
+****************************************************************************/
+@media screen and (max-width: 1279px) {
+.outer_mediad_left, .outer_mediad_right{display:none;}
+.woo_offer_list .table_view_block{padding: 15px 0;}
+.woo_offer_list{border-left:none; border-right: none;}
+.woo_offer_list h3{margin: 0 0 15px 0}
+}
+
+/****************************************************************************
+Common for under (1024)
+****************************************************************************/
+@media screen and (max-width: 1023px) {
+	.top_rating_item .buttons_col, .table_view_block .buttons_col{padding: 15px 10px}
+	.tablesaw-stack tr {clear: both;display: block !important;}	
+	header .logo-section{margin: 0 auto; padding: 5px 0}
+	.rh-flex-center-align.logo_insticky_enabled{display: block;}
+	.is-sticky a.logo_image_insticky, a.logo_image_insticky{display: none}
+}
+
+/****************************************************************************
+(800 X 600) + (768 X 1024)
+****************************************************************************/
+@media screen and (max-width: 1023px) and (min-width: 768px) {	
+.footer-contact .celldisplay{display: block; margin: 0 0 20px 0}
+header .mediad { max-width: 100% !important; float: none; margin: 0 auto 15px auto !important; text-align: center;}
+header .mediad img { max-width: 100%; }
+header .logo-section .search { width: 90%; float:none; margin: 0 auto 15px;}
+header .logo {  float: none; margin: 0 auto 10px; text-align:center }
+.header-top .top-nav li { margin-right: 7px; font-size: 11px; padding-left: 8px }
+header .header_second_style .logo{float: none;text-align: center; margin: 0 auto}
+header .header_second_style .mediad{float: none;text-align: center; margin: 15px auto 5px auto}
+nav.top_menu { display: none; }
+.flex-direction-nav .flex-next, .flex-direction-nav .flex-prev{opacity: 0}
+.col_wrap_three .small_post, .col_wrap_fourth .small_post, .col_wrap_fifth .small_post {width: 47%; margin: 0 1.5% 20px;}
+.col_wrap_three, .col_wrap_fourth, .col_wrap_fifth{margin: 0 -1.5% 20px}
+.sidebar .tabs-item figure, .footer-bottom .tabs-item figure{ position: static;}
+.block_with_coupon .offer_title{ font: 15px/16px Arial}
+.table_view_block .block_with_coupon p{font: 12px/14px 'arial', trebuchet ms;}
+.offer_grid .offer_thumb{ height: 130px}
+.offer_grid .offer_thumb img, .offer_grid figure img{max-height: 130px}
+.top_rating_item h2{font-size: 19px}
+.top_rating_block .t_score{display: none;}
+.top_rating_block .priced_block .btn_offer_block:after {display: none;}
+.top_table_block .rank_count{ display: none !important;}
+.scrollable_table{ overflow-x: scroll;}
+.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s; position: static !important;}
+.widget .rehub_chimp_flat #mc_embed_signup input#mc-embedded-subscribe{width: 100%; position: static;}
+}
+
+
+/****************************************************************************
+Common for under 767
+****************************************************************************/
+@media screen and (max-width: 767px) {
+.top_rating_block.list_style_rating .star strong{float: none;}
+nav.top_menu, .header_top_wrap{ display: none;}
+.top_theme #vertical-ticker { font-size: 12px }
+.rate-line .line span { height: 18px }
+.rate-line .count { top: -3px }
+article h1 { font-size: 28px; line-height: 26px }
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+.video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+header .header_second_style .logo{float: none !important;text-align: center !important;margin: 0 auto !important}
+header .mediad { max-width: 100% !important; float: none !important; margin: 15px auto 0 auto !important; text-align: center !important;}
+.post_share div.share-item{width: 100%; text-align: left; margin-bottom: 25px}
+#masonry_grid:before{ display: none;}
+#edd_checkout_form_wrap input.edd-input, #edd_checkout_form_wrap textarea.edd-input{ width: auto !important;}
+.edd_cart_item_name .edd_cart_item_image{ display: none;}
+.edd_checkout_cart_item_title{ line-height: 18px; display: inline-block;}
+.post .rehub_woo_tabs_menu{ margin: 20px 0 0 0;}
+.post .rehub_woo_tabs_menu li{ border:1px solid #cecece; margin-bottom: 4px;}
+.post .rehub_woo_tabs_menu li.current{ border-bottom:1px solid #cecece; background-color:#111; color:#fff;}
+.wishlist_table .product-thumbnail, .wishlist_table .product-stock-status{display:none;}
+.woocommerce table.shop_table.wishlist_table td:not([colspan]){padding: 15px 12px;}
+.woocommerce table.shop_table.wishlist_table td:not([colspan]):after{display: none;}
+.rehub_feat_block .yith-wcwl-add-to-wishlist .ajax-loading{display:none !important;}
+.top_rating_item .priced_block .rh_price_wrapper{ margin:0 0 3px 0;}
+.top_table_block .rank_count{ display: none !important;}
+.scrollable_table{ overflow-x: scroll;}
+.top_rating_item .score{ width: 70px; font-size: 12px; line-height: 15px; margin: 0 auto;}
+.top_rating_block .top_rating_item figure{ margin: 22px auto 0 auto !important}
+.with_sidebar_rating.top_rating_block.list_style_rating .rating_col, .top_rating_block.list_style_rating, .top_rating_block.list_style_rating .top_rating_item > div, .with_sidebar_rating.top_rating_block.list_style_rating .desc_col, .with_sidebar_rating.top_rating_block.list_style_rating .buttons_col{display: block; width: 100% !important; box-sizing:border-box;text-align: center !important;}
+.top_rating_block.list_style_rating .top_rating_item > div{ padding: 10px 15px;}
+.top_rating_block.list_style_rating .top_rating_item figure{ margin: 0 auto;}
+.top_rating_block.list_style_rating .star-small{ text-align:center;}
+.top_rating_block .top_rating_item .score{ width: 70px; font-size: 12px; line-height: 15px; margin: 0 auto;}
+.top_rating_block.list_style_rating .top_rating_item{ margin: 15px 0 32px 0; padding-bottom: 15px;}
+.top_rating_block .top_rating_item .priced_block .rh_price_wrapper{ margin:0 0 3px 0;}
+.top_rating_block .top_rating_item .rank_count{ top: 0; left: 50%; margin: -48px 0 0 -17px}
+.rh_deal_block{display:block;}
+.mediad .right_code, .mediad .left_code{float: none; margin: 0 auto 15px auto}
+.comment-respond .usr_re, .comment-respond .email_re, .comment-respond .site_re{ width: 100%; margin: 0}
+.news_block .right, .news_block.news_right .right, .tabs-item .right > div { float: none; width: 100%; margin-bottom: 10px }
+.news_block .right figure { height: auto; width:100%; margin: 0 auto 14px auto !important }
+.news_right.news_block .right figure{ height: auto !important; margin-bottom: 10px !important}
+.news_block .big_img{ margin-bottom: 20px}
+.news_block{ margin-bottom:0}
+.news_block .big_img { float: none; width: 100%; }
+.news_block .big_img figure{height:auto;}
+.news_right .right figure{margin-bottom:0px !important;}
+.rate_bar_wrap_two_reviews .review-criteria{ width: 100%; margin-right: 0;}
+.user_reviews_view_box, .user_reviews_view_proscons{ width: 100%}
+.user_reviews_view_box{ margin-bottom: 20px}
+.table_view_block{ padding-bottom: 25px; display: block;}
+.rehub_feat_block .offer_thumb, .table_view_block .offer_thumb{float:none; margin: 0 auto 15px; display: block; padding: 0}
+.table_view_block .desc_col, .table_view_block .buttons_col, .table_view_block .price_col, .top_table_block .buttons_col, .top_rating_item .buttons_col{ display:block; padding:0; text-align: center; margin: 0 auto 15px auto; width: auto; min-width: 1px } 
+.table_view_block .buttons_col{ margin-bottom: 0}
+.block_with_coupon{ display: block;}
+.rehub_woo_review_tabs{width: 100%}
+.user_rating_left_com, .user_rating_right_com{ width: 100%;}
+.user_rating_left_com{ padding: 0 0 25px 5px}
+.user_rating_right_com{ padding: 0}
+.rehub_listing .offer_thumb, .rehub_listing .listing_text{ float: none; width: 100%}
+.post_slider .bigcaption, .slider_post .bigcaption{ font-size: 13px; padding: 10px}
+.post_slider.gallery_top_slider .flex-direction-nav a{ margin-top: -50px}
+.header-top a.cart-contents{ display: none;}
+.rehub_feat_block .block_with_coupon .add_to_wishlist, .rehub_feat_block .block_with_coupon .woocommerce a.compare.button{padding: 4px 6px !important}
+/*4.2.2 merging*/
+.responsive_nav { width: 100%; padding: 6px; margin-top: 12px; border: none }
+header .mediad { width: 100% !important; float: none; margin: 0 auto; }
+header .mediad img { max-width: 100%; }
+header .logo-section .search { width: 90% !important; float:none !important; margin: 0 auto 10px !important; padding-top:0}
+header .logo {  float: none; margin: 0 auto 10px; text-align:center }
+a.comment{ padding: 1px 3px; font-size:12px}
+.footer_most_bottom{padding: 0 20px; text-align: center;}
+.floatright.postviewcomm{margin-top: 15px; float: none; }
+.sidebar.authorsidebar{margin: 0 0 20px 0}
+.footer-bottom .widget{margin-bottom: 15px}
+.footer-bottom .footer_widget { width: 100%; float: none; display: block; }
+.footer-bottom.white_style .footer_widget:nth-child(2){border:none;}
+.footer_widget .widget .title{margin-top: 0}
+footer#theme_footer .left{ width:100%; text-align: center;}
+footer#theme_footer .right{ width:100%; text-align: center; margin-top: 10px}
+a.vid_icon { margin: 0; top: 10px; left: 10px }
+.tabs_img, .news_out_thumb { width: 100%; height: auto}
+a.comment_two { font-size: 11px; padding: 1px 3px }
+a.comment_two:after { border-width: 6px 7px 9px 0 }
+a.expand { margin-right: 5px }
+.main-side .wp-pagenavi a, .main-side .wp-pagenavi span { padding: 2px 4px !important }
+.main-side .wp-pagenavi { font-size: 13px }
+.post blockquote p { font-size: 16px; line-height: 18px;  }
+.single .priced_block { margin-top: 12px; margin-left: 0 }
+.scrollsticky {-webkit-animation-duration: 0s;animation-duration: 0s; position: static !important;}
+.single .star{ float:left}
+.commentlist .comment-author a, .commentlist .comment-author time{ margin:0 0 10px 0; float:none; display:block}
+a.comment-reply-link, a.comment-edit-link { text-align: right;}
+.commentlist .comment-author a.comment-edit-link{ margin-bottom: 4px}
+.commentlist .comment-author .fn, .commentlist .comment-author .fn a{ float:none}
+.commentlist .comment-author img{ }
+.commentlist ul.children{ margin-left:10px; padding-left: 0; border-left: none }
+.commentlist ul.children .commbox:before { display: none;}
+.post_share > div img{ max-width:100%; padding:0}
+.post_share{ margin: 20px 0}
+blockquote.wpsm-quote{ width:100% !important}
+.overlay_post_formats{font-size: 14px}
+.overlay_post_formats.review_formats_gallery{padding: 3px 7px; font-size: 12px;}
+.rehub_feat_block .priced_block{clear: both;}
+.user-rate{ float:left; clear:both;}
+article.column_grid .priced_block .btn_offer_block:after{ border: none;}
+article.column_grid h2{ font-size: 18px; line-height: 18px;}
+.column_grid.last-col{ margin-right: 0}
+.wpsm_pros{ padding-left: 0 !important}
+.rehub_chimp #mc_embed_signup input.button{ position: static; border-radius: 5px !important; margin: 0 auto}
+.rehub_chimp #mc_embed_signup input.email{ text-align: center;}
+.rehub_chimp #mc_embed_signup input#mc-embedded-subscribe{position: static;margin: 10px auto;}
+.top_chart_item{ width: 186px}
+.footer-bottom .footer_widget{padding: 15px 0}
+}
+
+/****************************************************************************
+(480 x 640) - for small tablet
+****************************************************************************/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.offer_grid .offer_thumb{ height: 130px}
+.offer_grid .offer_thumb img, .offer_grid figure img{max-height: 130px}
+}
+
+
+/****************************************************************************
+320 x 480 (iPhone)
+****************************************************************************/
+@media only screen and (max-width: 567px) {
+.re-favorites-posts img{ max-width: 200px;}
+.re-favorites-posts .rowdisplay{border: 1px solid #ddd; margin: 0 0 15px 0; display: block;}
+.re-favorites-posts .celldisplay{display: block; border: none; text-align: center; width: 100% !important; padding: 5px 15px !important}
+.col_wrap_two .small_post, .col_wrap_three .small_post, .col_wrap_fourth .small_post, .col_wrap_fifth .small_post {width: 100%; margin: 0 0 20px;}
+}
+@media only screen and (max-width: 479px) {
+.custom_search_box.flat_style_form button[type="submit"]{padding: 15px 15px; width: 100%; display: block; position: static; margin: 6px 0}
+.custom_search_box.flat_style_form input[type="text"]{padding: 0 20px; text-align: center;}
+.news_without_thumb_block .text_in_thumb h2{font-size: 18px; line-height: 24px}
+.main_slider .flex-overlay h2 { font-size: 30px; line-height: 30px; }
+.small_post a.comment_two { display:none }
+.media_video h4{ font-size:16px; line-height:16px; margin-top:12px}
+.dl-menuwrapper button:after{height: 4px; box-shadow: 0 9px 0 #fff, 0 18px 0 #fff}
+.rehub_specification table th{width: auto;}
+.page-link a, .page-link > span, .page-link, ul.page-numbers li, ul.page-numbers{border:none !important; margin-bottom: 10px}
+.mobile_compact_grid figure{float: left;width: 110px;height: 110px; margin: 0 15px 15px 0 !important;}
+.mobile_compact_grid figure a.rh-flex-center-align{height: 110px; width: 110px; vertical-align: top; text-align: center; display: table-cell;}
+.mobile_compact_grid .grid_desc_and_btn{float: left; width: calc(100% - 130px)}
+.mobile_compact_grid .priced_block{margin: 0}
+.mobile_compact_grid .priced_block .btn_offer_block{display: block; margin: 0 0 14px 0}
+.mobile_compact_grid.offer_grid h3{height: auto; min-height: 1px; margin: 0 0 14px 0}
+.mobile_compact_grid .rehub_offer_coupon{min-width: 1px; max-width: 400px; }
+.mobile_compact_grid .priced_block .btn_offer_block{padding: 10px 12px}
+.mobile_compact_grid .meta_for_grid{clear: both;}
+.mobile_compact_grid .priced_block .btn_offer_block:not(.coupon_btn):before{top: 10px}
+.rehub_chimp_flat #mc_embed_signup input#mc-embedded-subscribe, #mc_embed_signup input#mc-embedded-subscribe{position: static; margin: 10px auto; width: 100%; border-radius: 0; display: block;}
+}

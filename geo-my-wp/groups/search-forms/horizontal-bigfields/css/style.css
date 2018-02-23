@@ -1,0 +1,325 @@
+/**
+ * Group Locator search form stylesheet "horizontal-big"
+ */
+div.gmw-gl-horizontal-big-form-wrapper {
+	padding:20px 0 15px 0;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper label {
+	text-transform:capitalize;
+	color:#555;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-single-taxonomy-wrapper,
+div.gmw-gl-horizontal-big-form-wrapper .address-locator-wrapper,
+div.gmw-gl-horizontal-big-form-wrapper .post-types-wrapper,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-wrapper,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-custom-field-wrapper,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-keywords-field,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-distance-select,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-posts-dropdown {
+	display:inline-block;
+	margin:0 10px 10px 0px;
+	vertical-align: top;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper input[type="text"] {
+     margin-top:6px;
+     padding:8px 10px 7px;
+} 
+ 
+div.gmw-gl-horizontal-big-form-wrapper form label {
+    margin-right:5px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper form .editfield label {
+	display:block;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper form .editfield{margin: 0 0 10px 0}
+div.gmw-gl-horizontal-big-form-wrapper form .editfield span.label,
+div.gmw-gl-horizontal-big-form-wrapper form .editfield label {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper form .editfield div.checkbox label,
+div.gmw-gl-horizontal-big-form-wrapper form .editfield div.radio label {
+	color: #888;
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper form .editfield span.label {
+        display:inline-block;
+        width:100%;
+        margin:3px 0px 3px      
+}
+	
+div.gmw-gl-horizontal-big-form-wrapper form .date input[type="text"] {
+	width:30px;
+}	
+
+
+div.gmw-gl-horizontal-big-form-wrapper input[type="text"], 
+div.gmw-gl-horizontal-big-form-wrapper select {
+     
+	    
+	
+}
+
+div.gmw-gl-horizontal-big-form-wrapper input[type="text"] {
+     margin-top:6px;
+    padding: 10px 30px 10px 18px;	
+	border: 1px solid #ccc;
+	font-family: inherit;
+	font-size:18px;
+	color:#555;
+	margin:0px;
+	line-height: 30px;
+	background-color: #fff;
+} 
+ 
+div.gmw-gl-horizontal-big-form-wrapper select {
+border: 1px solid #ccc;
+    font-size: 18px;
+    color: #555;
+    padding: 10px 30px 10px 18px;
+    line-height: 30px;
+    background: url(select.png) right center no-repeat #fff;
+    -webkit-appearance: none; 
+    height: 52px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-dropdown-taxonomy-wrapper label, 
+div.gmw-gl-horizontal-big-form-wrapper .gmw-checkbox-taxonomy-wrapper span,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-custom-field-wrapper label,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-saf-wrapper label,
+div.gmw-gl-horizontal-big-form-wrapper .gmw-address-field-wrapper label {
+	padding: 5px;
+	background-color: #ABF1D4;
+	font-size: 12px;
+	text-align:center;
+	border:1px solid #9BDFC3;
+	width:100%;
+	color:#626332;
+	margin-right:3px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-single-taxonomy-wrapper label {
+	display:none;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper  .gmw-checkbox-taxonomy-wrapper label {
+	display:inline-block;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .address-locator-wrapper {
+	position:relative;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-no-address-error {
+	border: 1px solid rgb(252, 165, 165) !important;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper {
+	padding: 15px 5px 0 0;
+	position: absolute;
+	right:2px;
+	height: 25px;
+	width:25px;
+	top:0px
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper {
+	cursor: pointer;
+	color:#375348;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper .gmw-locator-button {
+	color: rgb(179, 223, 193);
+	font-size:24px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper img {
+	-moz-box-shadow:    none;
+  	-webkit-box-shadow: none;
+	box-shadow: none;
+	max-height: 20px;
+	margin-left: 5px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-within-wrapper {
+	cursor: pointer;
+	padding:2px 5px;
+	position: absolute;
+	right:5px !important;
+	height: initial;
+	width:initial;
+	top:10px !important;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper .gmw-locator-btn-within {
+	color: rgb(179, 223, 193);
+	font-size:24px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper img.gmw-locator-btn-loader {
+	max-height: 17px;
+	margin-left: 3px;
+	padding-top: 5px;
+}
+
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-button {
+	padding: 3px 5px;
+	background-color: #ABF1D4;
+	border:1px solid #9BDFC3;
+	text-align:center;
+	cursor: pointer;
+	display: inline-block;
+	color:#375348;
+	-webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+    font-size:12px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-button:hover {
+	background-color:#72D9AE;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper .gmw-locator-submit {
+	display: inline;
+}
+
+/* premium features */
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-radius-slider-wrapper {
+    text-align:center;
+    display:inline-block;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-radius-slider-wrapper label {
+	margin-right:1px;
+	font-size: 12px;
+	vertical-align: top;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-radius-slider-wrapper input {
+     max-width:60px;
+	font-size:12px;
+	vertical-align: top;
+	height:18px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-radius-slider-wrapper .gmw-slider-range {
+	height: 1.0em;
+	-moz-border-radius: 0px/*{cornerRadius}*/;
+	-webkit-border-radius: 0px/*{cornerRadius}*/;
+	border-radius: 0px/*{cornerRadius}*/;
+	margin-top: -7px;
+	height: 8px;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-radius-slider-wrapper .gmw-slider-range a {
+	height:0.9em;
+	width:15px
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-checkbox-taxonomy-wrapper {
+	margin-bottom:10px;
+	vertical-align:top;
+}
+
+div.gmw-gl-horizontal-big-form-wrapper .gmw-checkbox-taxonomy-wrapper span {
+	display:block
+}
+
+div.gmw-gl-horizontal-big-form-wrapper input.gmw-single-checkbox {
+	margin-right: 5px;
+	
+	
+}
+
+div.gmw-gl-horizontal-big-form-wrapper gmw-checkbox-taxonomy-wrapper span.label {
+	font-weight:bold;
+}
+
+/* widget */
+
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-single-taxonomy-wrapper,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .address-locator-wrapper,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .post-types-wrapper,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-wrapper,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-custom-field-wrapper,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-keywords-field,
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-distance-select {
+	display:block;
+	margin:0 0px 10px 0px;
+}
+
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper {
+ 	background: none;
+	padding:0px;
+	border:0;
+}
+
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper input[type="text"], 
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper select {
+	width:100%;
+}
+
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-button {
+	width:100%;
+	padding:10px 0px;
+}
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper input.gmw-submit{margin: 10px 0 0 0}
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper div.xfield-trigger{display: block; margin: 0}
+.widget_gmw_search_form_widget div.gmw-gl-horizontal-big-form-wrapper div.xfield-trigger-wrapper{display: block; margin: 0 0px 10px 0px;}
+
+div.gmw-gl-horizontal-big-form-wrapper input.gmw-submit{    
+    height: 54px;
+    padding: 0 35px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 54px;
+    position: relative;
+    top: -2px
+}
+
+
+
+@media (max-width:600px) {
+	
+	div.gmw-gl-horizontal-big-form-wrapper .address-locator-wrapper,
+	div.gmw-gl-horizontal-big-form-wrapper .gmw-single-taxonomy-wrapper,
+	div.gmw-gl-horizontal-big-form-wrapper .gmw-address-field-wrapper,
+	div.gmw-gl-horizontal-big-form-wrapper select,
+	div.gmw-gl-horizontal-big-form-wrapper input[type="text"],
+	div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-wrapper,
+	div.gmw-gl-horizontal-big-form-wrapper .gmw-submit-button {
+		width:100% !important;
+		 
+		    
+		
+		margin:0 0px 10px 0px !important;
+		display:block;
+	}
+	
+	div.gmw-gl-horizontal-big-form-wrapper div.xfield-trigger-wrapper {
+		width:100%;
+	}
+	
+	div.gmw-gl-horizontal-big-form-wrapper .gmw-locator-btn-wrapper {
+		bottom:5px;
+		right: 8px;
+	}
+	
+}

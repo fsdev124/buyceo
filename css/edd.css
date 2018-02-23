@@ -1,0 +1,97 @@
+/*
+	Author: Sizam Design
+	Author URI: https://wpsouls.com
+*/
+
+.widget_edd_cart_widget { background-color: #f9f9f9; padding: 15px 15px 20px 15px }
+.widget_edd_cart_widget .title {padding-bottom: 15px !important }
+.widget_edd_cart_widget .edd-cart-number-of-items { margin-bottom: 0 !important; text-indent: -999px; position: relative; }
+.widget_edd_cart_widget .edd-cart-number-of-items .edd-cart-quantity { width: 24px; height: 24px; border-radius: 50%; display: block; color: #fff; text-indent: 0; margin: 0 auto; position: relative; z-index: 2; text-align: center; padding: 6px; font: 700 24px/24px 'Roboto', trebuchet; margin-bottom: 8px; border: 10px solid #f9f9f9 }
+.widget_edd_cart_widget .edd-cart-number-of-items:after { content: ''; position: absolute; width: 100%; height: 1px; background: #e1e1e1; top: 39px; left: 0; box-shadow: 0 8px 0 #e1e1e1, 0 16px 0 #e1e1e1; z-index: 1 }
+.widget_edd_cart_widget .edd-cart .edd-cart-item-title { float: left; width: 70%; text-align: left; }
+.widget_edd_cart_widget .edd-cart-item-separator { display: none; }
+.widget_edd_cart_widget .edd-cart-item-price { font-weight: bold; }
+.widget_edd_cart_widget .edd-remove-from-cart { font-size: 0; line-height: 0 }
+.widget_edd_cart_widget .edd-cart-item { text-align: right; overflow: hidden; border-bottom: 1px dashed #ddd; padding: 10px 0; font-size: 13px; }
+.widget_edd_cart_widget .edd-remove-from-cart:after { content: 'x'; font-size: 13px }
+.widget_edd_cart_widget .edd_subtotal { padding: 8px 0; font: 700 18px/18px 'Roboto', trebuchet; text-transform: uppercase; }
+.widget_edd_cart_widget .cart_item.edd_checkout a:after { content: " →"; }
+.widget_edd_cart_widget .edd_empty_cart { padding-top: 10px; display: block; }
+.edd_downloads_list .edd_download_title { font-size: 20px; line-height: 22px; margin: 10px 0; text-transform: uppercase; }
+.edd_downloads_list .edd_download_excerpt { font-size: 13px; line-height: 18px; margin-bottom: 15px }
+.edd_downloads_list .edd_downloadimg { max-width: 100% }
+.edd_downloads_list .edd_download {    background-color: #fff;}
+.edd_downloads_list.edd_download_columns_1 { display: table; width: 100% }
+.edd_downloads_list.edd_download_columns_1 .edd_download { border: 1px solid #cecece; box-shadow: 0 1px 1px #ededed; position: relative; margin-bottom: 15px; background-color: #fff }
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div { display: table-cell; padding: 15px 10px; text-align: center; vertical-align: top; }
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_buy_button { vertical-align: middle; }
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner { padding: 0; margin: 0 }
+.edd_downloads_list.edd_download_columns_1 .edd_download_image img { width: 160px; height: 106px; background-color: #fff; border: 1px solid #ddd; padding: 2px; }
+.edd_downloads_list.edd_download_columns_1 .edd_download_buy_button { width: 180px }
+.edd_downloads_list.edd_download_columns_1 .edd_download_image { width: 170px }
+.edd_downloads_list.edd_download_columns_1 .edd_download_title { margin: 0 0 12px 0 }
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text { text-align: left; width: 380px }
+.full_width .edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text { width: 690px }
+.masonry_grid_fullwidth .edd_download_buy_button { margin-top: 15px }
+.edd_masonry_grid .edd-cart-ajax-alert { display: inline-block; }
+.edd_masonry_grid .edd-cart-ajax-alert .edd-cart-added-alert { position: relative; }
+.edd_download_purchase_form .edd_price_options li { font-size: 13px; text-align:left;}
+.edd_downloads_list.edd_download_columns_1 .edd-cart-ajax-alert .edd-cart-added-alert { position: relative; }
+.edd_downloads_list.edd_download_columns_1 .edd-cart-ajax-alert { display: inline-block; }
+.edd_downloads_list .post-meta { font-size: 12px; margin-bottom: 10px }
+.edd_downloads_list .post-meta a { color: #666; text-decoration: underline; }
+.edd-submit.button.orange { background-color: #fb7203 !important; border-color: #fb7203 !important; }
+#edd-purchase-button, .edd-submit, input.edd-submit[type="submit"] { border-radius: 0 !important }
+.edd_downloads_list .star-small { margin-bottom: 5px }
+.edd_masonry_grid.small_post .post-meta { padding-top: 0 }
+.eddsw-search-field{ padding: 5px; margin-right: 5px}
+.edd_single h1 span { font-weight: bold; }
+.edd_single h1 { font-size: 28px; line-height: 28px; margin-top: 0 }
+.widget_edd_product_details h3 { font: bold 16px Arial; margin-bottom: 12px }
+.sidebar .widget.widget_edd_product_details { border: 1px solid #e5e5e5; padding: 15px; }
+.single .edd_single .user-rate { float: none; margin-bottom: 15px }
+.single .edd_single .user-rate .title_star_ajax { display: inline; }
+.single .widget.widget_edd_product_details .user-rate, .widget.widget_edd_product_details .user-rate { float: none; }
+.single .widget.widget_edd_product_details .user-rate .title_star_ajax { font-size: 13px }
+.widget.widget_edd_product_details .title { display: none; }
+#edd-purchase-button, .edd-submit, input.edd-submit[type="submit"] { border: none; }
+.widget_edd_cart_widget .edd-remove-from-cart { color: #cc0000; }
+#edd_checkout_form_wrap #edd-discount-code-wrap, #edd_checkout_form_wrap #edd-login-account-wrap, #edd_checkout_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd_final_total_wrap, #edd_checkout_form_wrap #edd_show_discount, #edd_checkout_form_wrap fieldset, #edd_login_form, #edd_purchase_receipt, #edd_user_history, #edd_purchase_receipt_products, #edd_profile_editor_form, .edd-confirmation-template #edd_purchase_receipt thead th:first-child, #edd_purchase_receipt tbody td:first-child, #edd_purchase_receipt thead th:last-child, #edd_purchase_receipt tbody td:last-child, #edd_purchase_receipt_products tbody td { border: 1px solid #f1f1f1; }
+#edd_purchase_receipt thead th:first-child, #edd_purchase_receipt tbody td:first-child { padding: 12px 10px; }
+#edd_checkout_cart .edd_cart_header_row th, #edd_checkout_form_wrap #edd-discount-code-wrap, #edd_checkout_form_wrap #edd-login-account-wrap, #edd_checkout_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd_final_total_wrap, #edd_checkout_form_wrap #edd_show_discount, #edd_purchase_receipt thead th:first-child, #edd_purchase_receipt tbody td:first-child, #edd_purchase_receipt_products th, #edd_profile_editor_form, #edd_checkout_form_wrap fieldset:not(#edd_purchase_submit), #edd_login_form { background: none repeat scroll 0 0 #f5f5f5; }
+#edd_purchase_receipt, #edd_user_history { margin-bottom: 2em; }
+#edd_purchase_receipt thead th:last-child, #edd_purchase_receipt tbody td:last-child { border-width: 0 0 1px; padding: 12px 10px; }
+#edd_purchase_receipt thead th:first-child, #edd_purchase_receipt tbody tr:not(:last-child) td:first-child { border-bottom-width: 1px; }
+#edd_purchase_receipt_products tbody td { border-width: 0 0 1px; }
+#edd_purchase_receipt_products th { border-bottom: 1px solid #f1f1f1; }
+#edd_purchase_receipt_products th { font-weight: bold; padding: 12px 10px; }
+#edd_purchase_receipt_products td { padding: 12px 10px; }
+#edd_profile_editor_form { padding: 15px; }
+#edd_profile_editor_form p > input:not([type="submit"]), #edd_profile_editor_form p > select, #edd_profile_editor_form p { margin-bottom: 1em; }
+#edd_profile_editor_form legend { display: block; font-weight: bold; margin-bottom: 10px; }
+#edd_profile_editor_form input[type="text"], #edd_profile_editor_form input[type="email"], #edd_profile_editor_form input[type="url"], #edd_profile_editor_form input[type="password"], #edd_profile_editor_form input[type="search"], #edd_profile_editor_form input[type="tel"], #edd_profile_editor_form input[type="number"], #edd_login_form #edd_user_pass, #edd_login_form #edd_user_login, #edd_checkout_form_wrap input[type="email"], #edd_checkout_form_wrap input[type="password"], #edd_checkout_form_wrap input[type="text"], #edd_checkout_form_wrap textarea { background: none repeat scroll 0 0 #fff; padding: 6px 8px; border: 1px solid #ddd; }
+#edd_profile_editor_submit, #edd_login_submit, #searchform input#searchsubmit { font: bold 14px/14px "arial",trebuchet ms; outline: none; position: relative; padding: 6px 7px; color: #111; text-align: center; text-shadow: 0 1px 1px #fff; vertical-align: top; cursor: pointer; background-color: #f5f5f5; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee), to(#dddddd)); background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd); background-image: -o-linear-gradient(top, #eeeeee, #dddddd); background-image: linear-gradient(to bottom, #eeeeee, #dddddd); background-image: -moz-linear-gradient(top, #eeeeee, #dddddd); background-repeat: repeat-x; border: 1px solid #bfbfbf; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; *zoom: 1;
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 1px 2px rgba(0, 0, 0, 0.09); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 1px 2px rgba(0, 0, 0, 0.09); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), 0 1px 2px rgba(0, 0, 0, 0.09); -webkit-transition: all 0.4s ease 0s; -moz-transition: all 0.4s ease 0s; -ms-transition: all 0.4s ease 0s; -o-transition: all 0.4s ease 0s; transition: all 0.4s ease 0s; }
+#searchform input#searchsubmit:hover{ background-color: #ededed; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dddddd), to(#eeeeee)); background-image: -webkit-linear-gradient(top, #dddddd, #eeeeee); background-image: -o-linear-gradient(top, #dddddd, #eeeeee); background-image: linear-gradient(to bottom, #dddddd, #eeeeee); background-image: -moz-linear-gradient(top, #dddddd, #eeeeee); }
+#edd_login_form { margin-top: 20px; padding: 16px; }
+#edd_login_form legend { margin-bottom: 1.5em; }
+#edd_login_form { max-width: 450px; }
+#edd_checkout_form_wrap fieldset p:last-child { margin-bottom: 12px; }
+
+@media screen and (max-width: 1140px) and (min-width: 1024px){
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text { text-align: left; width: 255px }
+.full_width .edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text { width: 565px }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_image{ display: none;}
+.edd_downloads_list .edd_download_title{ font-size: 18px}
+.edd_downloads_list .edd_download_excerpt{ font-size: 12px}	
+}
+@media only screen and (max-width: 479px) {
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div { display: block;}
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text{ width: auto; padding: 0 15px}
+.edd_downloads_list.edd_download_columns_1 .edd_download_inner > div{ padding: 15px; text-align: left;}
+.edd_downloads_list.edd_download_columns_1 .edd_download_image img{ width: 100%; height: auto; padding: 0; border: none}
+.edd_downloads_list.edd_download_columns_1 .edd_download_image{ width: auto;}
+.full_width .edd_downloads_list.edd_download_columns_1 .edd_download_inner > div.edd_download_text{width: auto;}
+	}

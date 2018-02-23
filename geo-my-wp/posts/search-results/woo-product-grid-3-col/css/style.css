@@ -1,0 +1,75 @@
+/**
+ * Custom theme stylesheet.
+ * @version 1.0
+ * @author Eyal Fitoussi
+ */
+
+
+.gmw-pt-per-page-dropdown {
+	margin:0px 0 0px 5px;
+	float: right;
+	font-size: 12px;
+	border:1px solid #ccc;
+	color:#444;
+}
+
+.gmw-results-count {
+display: inline;
+}
+
+.gmw-results-count span {
+	font-size:13px;	
+}
+
+.gmw-posts-wrapper{margin-top:15px; clear: both;}
+.gmw-pt-pagination-wrapper + .gmw-posts-wrapper {
+    margin: 0;
+}
+
+/* pagination */
+.gmw-pt-pagination-wrapper {
+	font-size: 12px;
+	padding: 8px 0;
+	display: inline-block;
+	width:100%;
+	min-height: 25px;
+	margin: 5px 0px;
+	
+}
+
+ul.gmw-pagination {
+	float: right;
+	text-align: center;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+
+ul.gmw-pagination li  {
+	text-align:center;
+	display: inline-block;
+	margin:0 0 0 2px;
+}
+
+ul.gmw-pagination li a,
+ul.gmw-pagination li span {
+	padding: 4px 10px;
+	font-size: 12px;
+	text-decoration: none;
+	background-color: #fff;
+	border:1px solid #d7d7d7;
+	display: inline-block;
+	color:#1B5A64;
+	line-height: 20px;
+}
+
+ul.gmw-pagination li a:hover, 
+ul.gmw-pagination li span {
+	background-color: #f7f7f7;
+	border:1px solid #ddd;
+	color: #000;
+}
+ 
+@media screen and (max-width: 700px){
+	.gmw-results-count{display: block;float: none; margin: 0 0 10px 0}	
+}

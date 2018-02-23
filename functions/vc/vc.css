@@ -1,0 +1,50 @@
+/*custom row layout*/
+.wpb_gal_carousel .attachment-thumbnails img {height: 20px;width: auto;}
+.wpb_gal_carousel .attachment-thumbnails li{height: 20px;width: 20px;overflow: hidden;margin-right: 1px;margin-bottom: 0;display: inline-block;}
+.icon-n-w-thumbs.vc_element-icon {background-image: url(img/icon-n-w-thumbs.png);}
+.icon-n-n-thumbs.vc_element-icon {background-image: url(img/icon-n-n-thumbs.png);}
+.icon-t-c-news.vc_element-icon {background-image: url(img/icon-t-c-news.png);}
+.icon-v-n-block.vc_element-icon {background-image: url(img/icon-v-n-block.png);}
+.icon-tab-block.vc_element-icon {background-image: url(img/icon-tab-block.png);}
+.icon-s-t-loop.vc_element-icon {background-image: url(img/icon-s-t-loop.png);}
+.icon-r-b-loop.vc_element-icon {background-image: url(img/icon-r-b-loop.png);}
+.icon-s-l-post.vc_element-icon {background-image: url(img/icon-s-l-post.png);}
+.icon-t-c-post.vc_element-icon {background-image: url(img/icon-t-c-post.png);}
+.icon-g-l-loop.vc_element-icon {background-image: url(img/icon-g-l-loop.png);}
+.icon-cg-l-loop.vc_element-icon {background-image: url(img/icon-compactgrid.png);}
+.icon-p-c-mod.vc_element-icon {background-image: url(img/icon-p-c-mod.png);}
+.icon-p-s-mod.vc_element-icon {background-image: url(img/icon-p-s-mod.png);}
+.icon-woo-mod.vc_element-icon {background-image: url(img/icon-woo-mod.png);}
+.icon-title-mod.vc_element-icon {background-image: url(img/icon-title-mod.png);}
+.icon-offer-box.vc_element-icon {background-image: url(img/icon-offer-box.png);}
+.icon-woo-offer-box.vc_element-icon {background-image: url(img/icon-woo-offer-box.png);}
+.icon-afflist.vc_element-icon {background-image: url(img/icon-afflist.png);}
+.icon-affgrid.vc_element-icon {background-image: url(img/icon-affgrid.png);}
+.icon-testimonial.vc_element-icon {background-image: url(img/icon-testimonial.png);}
+.icon-s-list.vc_element-icon {background-image: url(img/icon-s-list.png);}
+.icon-pros.vc_element-icon {background-image: url(img/icon-pros.png);}
+.icon-cons.vc_element-icon {background-image: url(img/icon-cons.png);}
+.icon-numhead.vc_element-icon {background-image: url(img/icon-numhead.png);}
+.icon-numbox.vc_element-icon {background-image: url(img/icon-numbox.png);}
+.icon-titlebox.vc_element-icon {background-image: url(img/icon-titlebox.png);}
+.icon-colortable.vc_element-icon {background-image: url(img/icon-colortable.png);}
+.icon-pricetable.vc_element-icon {background-image: url(img/icon-pricetable.png);}
+.icon-memberbox.vc_element-icon {background-image: url(img/icon-memberbox.png);}
+.icon-cartbox.vc_element-icon {background-image: url(img/icon-cartbox.png);}
+.icon-fonticon.vc_element-icon {background-image: url(img/icon-fonticon.png);}
+.icon-featured.vc_element-icon {background-image: url(img/icon-featured.png);}
+.icon-woofeatured.vc_element-icon {background-image: url(img/icon-woofeatured.png);}
+.icon-f-carousel.vc_element-icon {background-image: url(img/icon-f-carousel.png);}
+.icon-woolist.vc_element-icon {background-image: url(img/icon-woolist.png);}
+.icon-woogrid.vc_element-icon {background-image: url(img/icon-woogrid.png);}
+.icon-woocolumns.vc_element-icon {background-image: url(img/icon-woocolumns.png);}
+.icon-gal-carousel.vc_element-icon {background-image: url(img/icon-gal-carousel.png);}
+.icon-searchbox.vc_element-icon {background-image: url(img/icon-searchbox.png);}
+.icon-columngrid.vc_element-icon{background-image: url(img/icon-columngrid.png);}
+.icon-mdtf.vc_element-icon{background-image: url(img/icon-mdtf.png);}
+.icon-button_popup.vc_element-icon{background-image: url(img/icon-button_popup.png);}
+.icon-banner-hover.vc_element-icon {background-image: url(img/icon-banner-hover.png);}
+.icon-wpsm-versus.vc_element-icon {background-image: url(img/icon-versus-line.png);}
+.icon-wpsm-woo-versus.vc_element-icon {background-image: url(img/woo-compare.png);}
+#TB_window {z-index: 100500 !important;}
+.vc_ui-panel.vc_ui-panel-window{z-index: 10000 !important}
